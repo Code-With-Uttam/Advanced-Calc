@@ -16,12 +16,7 @@
     background-color: rgb(175, 174, 174);
     font-size: 50px;
 }
-.btna{
-    width: 70px;
-    height: 70px;
-    background-color: rgb(175, 174, 174);
-    font-size: 20px;   
-}
+
 #btn{
     width: 70px;
     height: 70px;
@@ -33,4 +28,10 @@
     height: 70px;
     background-color: coral;
     font-size: 50px;
+}
+.btna{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(175, 174, 174);
+    font-size: 20px;   
 }
