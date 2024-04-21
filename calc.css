@@ -4,7 +4,14 @@
     height: auto;
 }
 
-#result1, result2{
+#result1{
+    background-color: black;
+    font-size: 60px;
+    color: white;
+    width: 360px;
+    height: 70px;
+}
+#result2{
     background-color: black;
     font-size: 60px;
     color: white;
