@@ -6,7 +6,7 @@ $("button").click(function() {
     var firstDigit;
     var secondDigit;
     if (pressedButton == "=") {
-        secondDigit = result.value;
+        secondDigit = result1.value;
         result1.value = "";
     } else if (pressedButton == "C") {
         result1.value = "";
