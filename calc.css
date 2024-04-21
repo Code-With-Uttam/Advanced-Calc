@@ -19,6 +19,13 @@
     font-size: 50px;
 }
 
+#C {
+    width: 70px;
+    height: 150px;
+    background-color: rgb(175, 174, 174);
+    font-size: 50px;
+}
+
 .btna {
     width: 70px;
     height: 70px;
