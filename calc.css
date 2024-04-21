@@ -4,7 +4,7 @@
     height: auto;
 }
 
-#result {
+#result1, #result2 {
     background-color: black;
     font-size: 60px;
     color: white;
