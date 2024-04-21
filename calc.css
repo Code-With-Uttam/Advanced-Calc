@@ -1,3 +1,33 @@
 * {
-    background-color: rgb(193, 163, 217);
+    background-color: aliceblue;
+}
+#layout{
+    background-color: rgb(220, 216, 216);
+    width: 400px;
+    height: auto;
+}
+#result{
+    background-color: black;
+    font-size: 60px;
+    color: white;
+    width: 360px;
+    height: 70px;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(175, 174, 174);
+    font-size: 50px;
+}
+#btn{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(106, 219, 40); 
+    font-size: 50px;
+}
+#spc{
+    width: 70px;
+    height: 70px;
+    background-color: coral;
+    font-size: 50px;
 }
