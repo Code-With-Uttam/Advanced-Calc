@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advance Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="calc.css">
 </head>
 <body>
@@ -11,22 +12,22 @@
         <table border="0" id="layout"> 
         <tr> 
             <td colspan="3"> 
-                <input type="text" id="result"> 
+                <input type="text" id="result" readonly> 
             </td> 
-            <td><input type="button" value="C" class="btn"></td> 
+            <td><button type="button" value="C" class="btn">C</button> 
         </tr> 
   
         <tr> 
-            <td><input type="button" value="1" class="btn"></td> 
-            <td><input type="button" value="2" class="btn"></td> 
-            <td><input type="button" value="3" class="btn"></td> 
-            <td><input type="button" value="÷" id="btn"></td> 
+            <td><button type="button" value="1" class="btn">1</button> 
+            <td><button type="button" value="2" class="btn">2</button> 
+            <td><button type="button" value="3" class="btn">3</button> 
+            <td><button type="button" value="÷" id="btn">÷</button> 
         </tr> 
         <tr> 
-            <td><input type="button" value="4" class="btn"></td> 
-            <td><input type="button" value="5" class="btn"></td> 
-            <td><input type="button" value="6" class="btn"></td> 
-            <td><input type="button" value="x" id="btn"></td> 
+            <td><button type="button" value="4" class="btn">4</button> 
+            <td><button type="button" value="5" class="btn">5</button> 
+            <td><button type="button" value="6" class="btn">6</button> 
+            <td><button type="button" value="x" id="btn">x</button> 
         </tr> 
         <tr> 
             <td><input type="button" value="7" class="btn"></td> 
@@ -66,7 +67,6 @@
         </tr> 
     </table>
     </center>
-    <!--Now it is time for JavaScript-->
     <script src="calc.js"></script>
     
 </body>
