@@ -17,10 +17,11 @@
     font-size: 50px;
 }
 .btna{
-    width: 100px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background-color: rgb(175, 174, 174);
-    font-size: 50px;
+    font-size: 20px;
+    
 }
 #btn{
     width: 70px;
