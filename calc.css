@@ -1,34 +1,45 @@
-#layout{
+#layout {
     background-color: rgb(220, 216, 216);
     width: 400px;
     height: auto;
 }
-#result{
+
+#result {
     background-color: black;
     font-size: 60px;
     color: white;
     width: 360px;
     height: 70px;
 }
-.btn{
+
+.btn {
     width: 70px;
     height: 70px;
     background-color: rgb(175, 174, 174);
     font-size: 50px;
 }
-.btna{
+
+.btna {
     width: 70px;
     height: 70px;
     background-color: rgb(175, 174, 174);
     font-size: 30px;
 }
-#btn{
+
+.btnaa {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(106, 219, 40); 
+    font-size: 30px;
+}
+#btn {
     width: 70px;
     height: 70px;
     background-color: rgb(106, 219, 40); 
     font-size: 50px;
 }
-#spc{
+
+#spc {
     width: 70px;
     height: 70px;
     background-color: coral;
