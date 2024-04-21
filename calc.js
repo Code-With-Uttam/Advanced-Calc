@@ -1,4 +1,5 @@
 const result1 = document.getElementById('result1');
+const result2 = document.getElementById('result2');
 
 $("button").click(function() {
     var pressedButton = $(this).val();
@@ -9,15 +10,6 @@ $("button").click(function() {
         result1.value = "";
     } else if (pressedButton == "C") {
         result1.value = "";
-    } else if (pressedButton == "+") {
-        firstDigit = result1.value;
-        result1.value += "+";
-        alert(firstDigit);
-        if (pressedButton == "=") {
-            secondDigit = result.value;
-            alert(secondDigit)
-            result1.value = "";
-        }
     } else {
         result1.value += pressedButton;
     }
