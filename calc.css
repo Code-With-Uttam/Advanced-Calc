@@ -40,6 +40,13 @@
     font-size: 30px;
 }
 
+.btnas {
+    width: 100px;
+    height: 70px;
+    background-color: rgb(175, 174, 174);
+    font-size: 30px;
+}
+
 .btnaa {
     width: 70px;
     height: 70px;
