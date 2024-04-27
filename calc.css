@@ -66,3 +66,10 @@
     background-color: coral;
     font-size: 50px;
 }
+
+#random-number-button {
+    background: orange;
+    width: 12%;
+    font-size: 1rem;
+    border-radius: 8px;
+}

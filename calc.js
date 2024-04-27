@@ -49,6 +49,6 @@ $("button").click(function() {
 });
 
 function randomNumber() {
-    let number = window.prompt("a");
+    let number = window.prompt("Generating random number between 1 and ...");
     alert(Math.floor(Math.random() * number) + 1);
 }
