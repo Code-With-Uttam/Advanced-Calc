@@ -43,6 +43,11 @@ $("button").click(function() {
         firstDigit = result1.value;
         result1.value = pressedButton;
         firstNumberEntered = true;
+    } else if (pressedButton == "abs") {
+        let abs = window.prompt("clicked");
+        absAnswer = Math.abs(abs);
+        pressedButton = absAnswer;
+        result1.value += pressedButton;
     } else {
         result1.value += pressedButton;
     }
