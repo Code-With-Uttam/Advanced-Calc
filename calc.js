@@ -47,3 +47,8 @@ $("button").click(function() {
         result1.value += pressedButton;
     }
 });
+
+function randomNumber() {
+    let number = window.prompt("a");
+    alert(Math.floor(Math.random() * number) + 1);
+}
