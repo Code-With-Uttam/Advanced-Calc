@@ -4,14 +4,7 @@
     height: auto;
 }
 
-#result1{
-    background-color: black;
-    font-size: 60px;
-    color: white;
-    width: 360px;
-    height: 70px;
-}
-#result2{
+#result1 {
     background-color: black;
     font-size: 60px;
     color: white;
@@ -19,12 +12,14 @@
     height: 70px;
 }
 
-.btn {
-    width: 70px;
+#result2 {
+    background-color: black;
+    font-size: 60px;
+    color: white;
+    width: 360px;
     height: 70px;
-    background-color: rgb(175, 174, 174);
-    font-size: 50px;
 }
+
 
 #C {
     width: 70px;
@@ -34,35 +29,41 @@
 }
 
 .btna {
-    width: 70px;
-    height: 70px;
-    background-color: rgb(175, 174, 174);
-    font-size: 30px;
-}
-
-.btnas {
     width: 100px;
     height: 70px;
     background-color: rgb(175, 174, 174);
     font-size: 30px;
 }
 
+.btnas,
+.btn,
+#spc,
+table {
+    width: 100px;
+    height: 70px;
+    background-color: rgb(175, 174, 174);
+    font-size: 30px;
+}
+
+tr:last-child #btn {
+    width: 100px;
+}
+
 .btnaa {
     width: 70px;
     height: 70px;
-    background-color: rgb(106, 219, 40); 
+    background-color: rgb(106, 219, 40);
     font-size: 30px;
 }
+
 #btn {
     width: 70px;
     height: 70px;
-    background-color: rgb(106, 219, 40); 
+    background-color: rgb(106, 219, 40);
     font-size: 50px;
 }
 
 #spc {
-    width: 70px;
-    height: 70px;
     background-color: coral;
     font-size: 50px;
 }
@@ -72,4 +73,65 @@
     width: 12%;
     font-size: 1rem;
     border-radius: 8px;
+    padding: 15px;
+    position: absolute;
+    bottom: 5px;
+}
+
+td,
+tr,
+button,
+table {
+    border: 0
+}
+
+table {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+button {
+    border-radius: 15px;
+}
+
+#random-number-button {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#random-number-button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#random-number-button:focus {
+    outline: none;
+}
+
+#random-number-button{
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+button:not(#random-number-button), table{
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.75);
+}
+button:not(#random-number-button):hover{
+    box-shadow:0 0 0;
 }
