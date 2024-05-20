@@ -110,7 +110,7 @@ button {
     border-radius: 15px;
 }
 
-#random-number-button {
+#random-number-button, #darkmode-button{
     width: 200px;
     font-size: 16px;
     font-weight: 600;
@@ -130,13 +130,13 @@ button {
 }
 
 #darkmode-button {
-    width: 200px;
+    /*width: 200px;
     font-size: 24px;
     font-weight: 600;
     color: #000000;
     cursor: pointer;
     margin: 20px;
-    height: 30px;
+    height: 30px;*/
     text-align: center;
     border: none;
     background-size: 300% 100%;
@@ -196,4 +196,9 @@ button:not(#random-number-button):hover{
 
 button:not(#darkmode-button):hover{
     box-shadow:0 0 0;
+}
+#darkmode-button{
+    position: absolute;
+    right: 0;
+    
 }

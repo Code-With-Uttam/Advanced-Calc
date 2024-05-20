@@ -59,7 +59,10 @@ function randomNumber() {
 }
 
 function darkmode() {
-    var darkmode;
-    darkmode = document.body;
-    darkmode.classList.toggle("darkmode");
+    document.body.classList.toggle("darkmode");
+    if(document.body.classList.contains('darkmode')){
+        document.getElementById("darkmode-button").innerHTML = 'Light mode'
+    }else{
+        document.getElementById("darkmode-button").innerHTML = 'Dark mode'
+    }
 }
